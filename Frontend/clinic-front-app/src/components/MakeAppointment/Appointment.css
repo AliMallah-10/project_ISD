@@ -1,0 +1,24 @@
+.appointment-form {
+  background: rgba(6, 163, 218, 0.7);
+}
+.appointment {
+  margin-top: 100px;
+}
+
+.choose-date {
+  width: 210px;
+}
+.choose-time {
+  width: 210px;
+}
+@media (max-width: 991px) {
+  /* #date1 {
+    margin-bottom: 15px;
+  } */
+  /* .choose-date {
+    width: 340px;
+  }
+  .choose-time {
+    width: 340px;
+  } */
+}

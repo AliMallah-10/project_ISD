@@ -1,0 +1,180 @@
+/* CSS for styling the form */
+.text-Form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #007ccf; */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Style the search input and button */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container button {
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the form fields and update button */
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.form-item input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-item button {
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add scrolling to the user list */
+.list-container {
+  max-height: 300px; /* Set the maximum height to enable scrolling */
+  overflow-y: auto; /* Add vertical scrolling to the list container */
+}
+/* Add more spacing between user details and buttons */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+/* Style the user details in the list items with spacing */
+.list-item .user-details {
+  flex: 1;
+  margin-right: 10px; /* Add right margin for spacing */
+}
+
+/* Style the update and delete buttons in the list items */
+.list-item .user-buttons {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the delete button in red */
+.btnDelete {
+  background: #ff4d4f !important;
+  color: #fff !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btnDelete:hover {
+  background: #e7efef !important;
+  color: #111 !important ;
+}
+.list-container p {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.info-item span {
+  display: inline;
+  font-weight: bold;
+}
+.info-item p {
+  display: flex;
+}
+.not-found-message {
+  color: #ff4d4f;
+}
+.search-type-select {
+  height: 47px;
+}
+
+/* Add styles for the user information table */
+.user-info-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-info-row {
+  display: table-row;
+}
+
+.info-title-cell {
+  display: table-cell;
+  font-weight: bold;
+  padding: 10px; /* Add padding to space out the titles */
+}
+
+.info-cell {
+  display: table-cell;
+  padding: 10px; /* Add padding to space out the content */
+}
+
+/* Add a scrollable container for the user list */
+.user-list-container {
+  max-height: 400px; /* Adjust the maximum height to your preference */
+  overflow-y: scroll;
+}
+
+/* Styles for the title container */
+.title-container {
+  display: table;
+  width: 100%;
+}
+
+.title-row {
+  display: table-row;
+}
+
+.title-cell {
+  display: table-cell;
+  font-weight: bold;
+  padding: 10px; /* Add padding to space out the titles */
+}
+/* Styles for the title container */
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px; 
+}
+
+/* Style the titles */
+.title {
+  font-weight: bold;
+  /* margin-right: 0px; */
+}

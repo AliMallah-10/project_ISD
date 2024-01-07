@@ -1,0 +1,33 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 100px;
+  background: linear-gradient(#1977cc, #3fbbc0);
+}
+.register-form {
+  border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+  .form-container {
+    height: 130vh;
+  }
+  .register-form {
+    margin-top: 30px;
+  }
+  .login-form {
+    margin: auto;
+  }
+}
+
+.register-form {
+  border: 1px solid gray;
+  padding: 30px;
+}
+.text-sign {
+  color: #3c009d;
+  font-size: 48px;
+  font-weight: 700;
+}

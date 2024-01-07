@@ -1,0 +1,15 @@
+.contact {
+  margin-top: 100px;
+}
+.send-message {
+  background: #1977cc;
+}
+.send-message:hover {
+  background-color: #3fbbc0;
+}
+.clear-btn {
+  background: #81b4b5;
+}
+.clear-btn:hover {
+  background: #3fbbc0;
+}

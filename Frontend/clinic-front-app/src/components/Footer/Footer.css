@@ -1,0 +1,67 @@
+.footer{
+    background-color: #1977cc;
+}
+/* Heart shape */
+.heart{
+    position: relative;
+    width: 100px;
+    height: 90px;
+   
+}
+.heart {
+    animation: heartbeat 1.3s infinite;
+  }
+.heart:before,
+.heart:after{ 
+   
+    content: "";
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #01cbbde0;
+    border-radius: 50px 50px 0;
+    transform-origin: 0 100%;
+    transform: rotate(-45deg);
+}
+.heart:after{
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+   
+}
+
+/* Keyframe animation */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(1.4);
+  }
+  30% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.4);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+
+.fab:hover{
+color: aliceblue;
+transform: scale(2.2);
+}
+.info:hover{
+  color: aliceblue;
+  transform: scale(2.2);
+  }
+
+  .text-reset{
+    text-decoration: none;
+   
+  }
+  

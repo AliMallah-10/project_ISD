@@ -1,0 +1,14 @@
+/*  the first img of about & services*/
+.hero-header {
+  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)),
+    url(../Assets/images/carousel-1.jpg) center center no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+.aboutus {
+  font-weight: 700 !important;
+  margin-top: 20px;
+}
+.word {
+  text-decoration: none;
+}
